@@ -59,15 +59,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center text-gray-600 dark:text-gray-300 text-sm">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span>123 Urban Street, City Center</span>
+                <span>Bijayapur Sadak, Dharan</span>
               </li>
               <li className="flex items-center text-gray-600 dark:text-gray-300 text-sm">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>contact@urbanfix.example</span>
+                <span>contact@urbanfix.com</span>
               </li>
               <li className="flex items-center text-gray-600 dark:text-gray-300 text-sm">
                 <Phone className="h-4 w-4 mr-2" />
-                <span>+1 (555) 123-4567</span>
+                <span>+977 9842476397</span>
               </li>
             </ul>
           </div>
