@@ -38,12 +38,20 @@ function App() {
   // console.log("isAuthenticated", isAuthenticated);
 
   //public route component
-  const PublicRoute = ({ children }) => {
+//   const PublicRoute = ({ children }) => {
 
-  if (isAuthenticated) {
+//   if (isAuthenticated) {
+//     return <Navigate to="/dashboard" replace />;
+//   }
+
+//   return children;
+// };
+
+const PublicRoute = ({ children }) => {
+  const location = window.location.pathname;
+  if (isAuthenticated && location !== "/verify-email") {
     return <Navigate to="/dashboard" replace />;
   }
-
   return children;
 };
 
